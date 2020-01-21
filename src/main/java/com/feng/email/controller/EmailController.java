@@ -54,6 +54,7 @@ public class EmailController {
         String fileName = "nv1.jpg";
         //添加附件,第一个参数表示添加到 Email 中附件的名称，第二个参数是图片资源
         mimeMessageHelper.addAttachment(fileName, file);
+        
         //多个附件
         //mimeMessageHelper.addAttachment(fileName1, file1);
 
